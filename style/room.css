@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family:'Potta One', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+
+   
+	
+}
+
+.clor_header{
+	color:white;
+
+}
+.clor_header:hover{
+	color:white;
+	text-decoration: none;
+
+}
+.background-header{
+     width: 100%;
+     min-height: 1000px;
+
+	 background: url("../meg/Frame1 5.png");
+	 position: relative;
+
+
+
+}
+
+.h1-text > h1{
+padding-top:5%;
+padding-left: 2%; 
+position: relative;
+width: 100%;
+font-weight: bold;
+	font-size:5rem;
+	color:white;
+}
+
+.vericle{
+	margin-top: 100px;
+}
+
+.input-text{
+	margin-top: 30px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    vertical-align: center;
+	width: 100%;
+
+}
+
+.p_first{
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.lab{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	font-size:1.5rem;
+}
+.login{
+	border:none;
+	cursor: pointer;
+	border-radius: 10px;
+	background: url("../meg/Frame1 5.png");
+	color:white;
+	padding: 0 30%;
+     width: 100%;
+	border-bottom:3px solid white;
+}
+.button{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.btn{
+	background: url("../meg/Frame1 5.png");
+	color:white;
+	font-size:25px;
+	cursor: pointer;
+	border:none; 
+	
+}
+
+@media screen and (max-width: 1920px){
+	.background-header{
+     width: 100%;
+     max-height: 1000px;
+
+
+
+
+}
+
+.lab{
+	
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;	
+	
+
+}
+.login{
+	font-size:25px;
+	width: 150%;
+}
+
+
+}
+
+
+@media screen and (max-width: 720px){
+	.background-header{
+     width: 100%;
+     min-height: 950px;
+
+
+
+
+    }
+    .vericle{
+    	margin-left:-150px;
+    }
+	.h1-text > h1{
+		font-size: 45px;
+	}
+
+.lab{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+    vertical-align: center;
+    font-size: 20px;	
+	
+
+}
+.login{
+	width: 200%;
+   
+}
+.button{
+	margin-left: 200px;
+}
+.btn{
+	 
+}
+
+
+	}
